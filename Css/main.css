@@ -1,0 +1,318 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* font-family: 'Anek Telugu', sans-serif;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+    }
+    /* General */
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    ul li{
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+      
+    }
+    .clear{
+        clear: both;
+    }
+    .fa-brands:hover + p{
+        font-weight: bold;
+    }
+
+.header-logo,.home-name,.home-pos,.home-desc,.btn,.resume-creative-header{
+    text-transform: capitalize;
+}
+.header-logo,.header-nav,.skills-item, .social.facebook,.social.twitter,.social.linkedin{
+    float: left;
+}
+.header,.home,.creative,.social-media, .social-icon,.resume{
+    position: relative;
+}
+.header-checked,.creative-item, .resume-creative-item, .home-hero{
+    position: absolute;
+}
+a,.header-checked.label,.header-checked.input:checked ~ .header-nav,.header-checked.label:checked ~.header-nav,.share-sharespan
+.contact-txtarea
+{
+    display: block;
+}
+.header-nav-item,.home,.share,.skills,.creative-item,  .resume,.footer-p{
+    text-align: center;
+}
+
+    /* Start Of .header */
+    .header{
+        padding: 15px 0;
+    border-bottom:2px solid #222 ;
+    }
+    .header-logo{
+        margin: 20px 0px 0px 0px;
+        width: 50%; 
+    }
+    .header-nav{  
+       width: 50%;
+    }
+
+    .header-nav-item{
+        display: inline-block;
+        margin: 10px 30px 5px 2px;
+    }
+    .header-checked.input{
+    display: none;
+    }
+    .header-nav-item a:hover{    
+        color: #eb5424;
+    }
+    .header-checked.label{ 
+        background-image: url(../images/Navbar/open.png);
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat ;
+        background-size: cover;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .header-checked{
+      
+        right: 10px;
+        top: 20px;
+    }
+    .header-nav-item a{
+        padding: 10px;
+    }
+ 
+    .header-checked.input:checked ~.header-checked.label{
+        background-image: url(../images/Navbar/close.png);
+        background-repeat: no-repeat ;
+        background-size: cover;
+    }
+
+
+    /* End  Of .header */
+    .home{
+        background-image: url(../images/Home/home-bg.jpg);
+        background-position: center;
+        height: 500px;
+     
+        background-size: cover;
+    }
+    .home-hero{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 13px ;
+        color: #5e5e5e;
+    }
+    .home-name{
+    font-size: 3rem;
+ 
+    
+    margin: 0.30em 0
+    }
+    .home-pos{
+        font-size: 30px;    
+        color:#eb5424;
+        margin: 0.39em 0
+    }
+  
+    .btn{
+        padding: 15px;
+        background-color:#eb5424;
+        color: white;
+        border: 0;
+        margin-top: 15px;
+    font-size: large;
+    cursor: pointer;
+    transition:  background-color 0.5s;
+    text-transform: capitalize;
+    }
+
+    .btn:hover{
+        background-color: #5e5e5e;
+    }
+    .home-desc-special{
+        text-transform: uppercase;
+        color: #000;
+        font-size: large;
+    }
+
+    .share-heigh{
+        height: 100px;       
+    }
+
+    .share-sharespan{
+        width: 2%;
+        height: 2px;
+        background-color: #eb5424;
+        margin:8px auto;
+        transition: width 0.9s;
+    }
+   
+    .share-txt{
+            text-transform: capitalize;
+            font-size: 2rem;
+            margin: auto;
+            color: #5e5e5e;
+        
+    }
+    .share-txt:hover +.share-sharespan{
+            width: 4%;
+    }
+    .mg-l-r{
+        margin: 0px 5%;
+    }
+    .skills{
+    margin-top: 40px;
+ 
+    line-height: 2;
+    }
+    .skills-item{
+    
+    margin-bottom: 17px;
+    width: 30%;
+ 
+    padding: 30px;
+    border: 1px solid red;
+
+    }  
+    .skills-icon
+    {
+        font-size: 3rem;
+        color:#eb5424 ;
+    }
+
+    
+    .skills-item-header{
+        text-transform: capitalize;
+    }
+  
+
+    .creative{
+        background-image: url(../images/creative/about-bg.jpg);
+        height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .creative-item{
+      
+       
+        top: 40%;
+        left: 55%;
+        }
+    .creative-header{
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #eb5424;
+        margin: 0.39em 0
+    }
+    .creative-desc{
+        line-height: 1.5;
+        letter-spacing: 1.4px;
+    }
+
+    .social{
+        border-radius: 20%;
+    }
+    .social-media{
+    background-image: url(../images/Portfolio/);
+    }
+    .social.facebook{
+    width: 30%;
+    height: 150px;
+    background-color: #3b5998;
+   
+  
+    }
+    .social.twitter{
+        width: 30%;
+        height: 150px;
+        background-color: #498cbf;
+      
+    }
+    .social.linkedin{
+        width: 30%;
+        height: 150px;
+        background-color: #498C85;
+    }
+
+
+    .social-icon{
+        color: white;
+        top: 30%;
+        margin-left: 5px;
+        font-size: 4rem;
+    
+    }
+    .social-txt{
+    font-size: 1.2rem;
+    margin-left: 35%;
+    color: white;
+ 
+    }
+    .social-txt:hover{
+    cursor: pointer;
+    }
+    /* ----------------------- */
+
+    .resume{
+        background-image: url(../images/gallary/h1_hero.jpg);
+        height: 500px;
+ 
+    }
+    .resume-creative-item{
+        top: 20%;
+        left: 10%;
+        border: 1px solid red;
+        width: 50%;
+        padding: 40px;
+        line-height: 1.9;
+    }
+    /* ------------------------------------------------------------ */
+    /* start of contact */
+    .contact-input{
+        padding:5px 10px;
+        margin: 10px 17px;
+        width: 30%;
+    }
+    .contact-txtarea{
+        padding:5px 10px;
+        margin: 17px;
+    }
+    .btn-contact{
+        padding: 15px 30px;
+        margin: 1% 0% 5% 50%;
+    
+    }
+    .inp-center{
+        border:1px solid red ;
+        width: 95%;
+    }
+    /* end of contact */
+   /* ---------------------------------  ------------------------------------------ -- */
+    /* Start of footer */
+    .footer{
+        background-color: #010b1d;
+    height: 100px;
+    }
+    .footer-p{
+        color: aliceblue;     
+        line-height: 100px;
+    }
+
+    .resume-creative-header{
+        font-size: 30px;
+        color: #eb5424;
+        margin: 0.39em 0
+    }
+    /* end of footer */

@@ -1,0 +1,459 @@
+
+    @media  (max-width:600px) {
+        /* Start Of Header */
+        .header-logo{
+            width: 100%;
+            float: none;
+        }
+        .header-nav{
+            width: 100%;
+            float: none;
+        }
+        .header-nav-item{
+            display: block;
+            margin: 30px 30px 5px 2px;
+        }
+    
+        .header-nav-item a:hover{
+            background: #222;
+            color: aliceblue;
+        }
+        .header-nav{
+            display: none;
+        }
+
+        /* End Of Header */
+        
+        /* Start Of home */
+        .home-name{     
+            font-size: 2rem;
+        }
+        .home-pos{
+            font-size: 25px;
+        }
+        .home-desc{
+            font-size: 13px;
+        }
+        .home-desc-special{
+        
+            font-size: medium;
+        }
+        /* End Of Header */
+        /* Start Of skills */
+      
+        .skills-item{
+            width: 100%;
+            float: none;
+            }
+            .mg-l-r{
+                margin: 5% 0;
+            }
+          /* End Of Header */
+
+          /* Start Of  creative */
+          .creative-item{
+            top: 1%;
+            left: 55%;
+            }
+    
+        .creative-desc{
+            line-height: 1.1;
+            letter-spacing: 1.1px;
+        }
+             /* End Of  creative */
+                /* Start Of social */
+                .social.facebook{
+                    width: 100%;   
+                    float: none;   
+                    }
+                    .social.twitter{
+                        margin: 13px 0 0 0px;
+                        width: 100%;
+                        float: none;
+                    
+                    }
+                    .social.linkedin{
+                    
+                    margin: 15px 0 0 0px;
+                        width: 100%;
+                        
+                    } 
+            
+            
+                /* End Of social */
+
+                /*Start Of  resume */
+                .resume{
+                    background-size: cover;
+                    background-attachment: fixed;
+                    background-position: center;
+                }
+            
+                .resume-creative-item{
+                    position: absolute;
+                    top: 10%;
+                    left: 10%;
+                    border: 1px solid red;
+                    width: 60%;
+                padding: 10px;
+                    line-height: 1;
+   
+                }
+            
+                /*End Of  resume */
+    }
+
+
+
+    @media(min-width:601px) and  (max-width:768px) {
+           /* Start Of Header */
+        .header-logo{
+            text-align: center;
+            width: 100%;
+            float: none;
+    
+        }
+        .header-nav{
+            width: 100%;
+            float: none;
+        
+        }
+        .header-nav-item{
+            display: block;
+
+            margin: 30px 30px 5px 2px;
+    
+        
+        }
+    
+        .header-nav-item a:hover{
+            background: #222;
+            color: aliceblue;
+        }
+        .header-nav{
+            display: none;
+        }
+         /* End Of Header */
+           /* Start Of skills */ 
+           .skills-item{
+            width: 100%;
+            float: none;
+    
+            }
+            .mg-l-r{
+                margin: 5% 0px;
+            }
+            /* End Of skills */ 
+
+              /* Start Of  creative */
+              .creative-item{
+        
+                top: 15%;
+                left: 55%;
+                }
+        
+            .creative-desc{
+                line-height: 1.1;
+                letter-spacing: 1.1px;
+            }
+                 /* End Of  creative */
+
+                  /* Start Of social */
+                  .social.facebook{
+                    width: 45%;
+                
+                    float: left;
+                
+                    }
+                    .social.twitter{
+                        margin: 0 0 0 10px;
+                        width: 45%;
+                        float: left;
+        
+                    
+                    }
+                    .social.linkedin{
+                    
+                        position: relative;
+                        left: 13%;
+                    margin: 15px 0 0 20px;
+                        width: 60%;
+                    } 
+                 /* End Of social */
+
+                   /*Start Of  resume */
+                   .resume{
+    
+                    background-size: cover;
+                    background-attachment: fixed;
+                    background-position: center;
+                
+                }
+                .resume-creative-item{
+                
+                    position: absolute;
+                    top:20%;
+                    left:5%;
+                
+                    border: 1px solid red;
+                    width: 60%;
+                padding: 10px;
+                    line-height: 1;
+                
+                }
+                
+         
+
+                 /*End Of  resume */
+    }
+
+
+    @media (min-width:769px) and  (max-width:992px) {
+          /* Start Of Header */
+        .header-logo{
+        
+            width: 30%;
+            float: left;
+    
+        }
+        .header-nav{
+            width: 70%;
+            float: left;
+        
+        }
+        .header-nav-item{
+            
+        
+            margin: 20px 0px 5px 0px;
+    
+        
+        }
+        .header-nav-item a {
+            padding: 6px;
+        }
+            .header-checked.label {
+        
+                display: none;
+            }
+             /* End Of Header */
+
+                /* Start Of skills */ 
+                .skills-item{
+                    width: 45%;
+                    float: left;
+            
+                    }
+                    .small-screen{
+                        width: 70%;
+                        margin-top: 15px;
+                        margin-left:12%;
+                    }
+                   /* End Of skills */ 
+
+   /* Start Of  creative */
+   .creative-item{
+        
+    top: 30%;
+    left: 55%;
+    }
+
+.creative-desc{
+    line-height: 1.1;
+    letter-spacing: 1.1px;
+}
+                           /* End Of  creative */
+
+
+                            /* Start Of social */
+                            .social.facebook{
+                                width: 45%;
+                            
+                                float: left;
+                            
+                                }
+                                .social.twitter{
+                                    
+                                    width: 45%;
+                                    float: left;
+                                
+                                }
+                                .social.linkedin{
+                                
+                                    position: relative;
+                                    left: 13%;
+                                margin-top: 15px;
+                                    width: 60%;
+                                    
+                                
+                                }
+                       
+                                /* End Of social */
+
+
+                                     /*Start Of  resume */
+                                     .resume{
+    
+                                        background-size: cover;
+                                        background-attachment: fixed;
+                                        background-position: center;
+                                    
+                                    }
+                                    .resume-creative-item{
+                                    
+                                        position: absolute;
+                                        top:20%;
+                                        left:5%;
+                                    
+                                        border: 1px solid red;
+                                        width: 60%;
+                                    padding: 10px;
+                                        line-height: 1;
+                                    
+                                    
+                                    
+                                    }
+                                          /*End Of  resume */
+
+    
+    }
+
+    @media  (min-width:993px) and (max-width:1200px){
+          /* Start Of Header */
+        .header-logo{
+        
+            width: 30%;
+            float: left;
+    
+        }
+        .header-nav{
+            width: 70%;
+            float: left;
+        
+        }
+        .header-nav-item{
+            
+        
+            margin: 20px 0px 5px 0px;
+    
+        
+        }
+        .header-nav-item a {
+            padding: 6px;}
+            .header-checked.label {
+        
+                display: none;
+            }
+             /* End Of Header */
+
+     /*Start Of  resume */
+     .resume{
+    
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    
+    }
+    .resume-creative-item{
+    
+        position: absolute;
+        top:20%;
+        left:5%;
+    
+        border: 1px solid red;
+        width: 60%;
+    padding: 10px;
+        line-height: 1;
+    
+    
+    
+    }
+
+                     /*End Of  resume */
+    }
+    @media(min-width:1200px) and (max-width: 1665px) {
+          /* Start Of Header */
+        .header-logo{
+        
+            width: 50%;
+            float: left;
+    
+        }
+        .header-nav{
+            width: 50%;
+            float: left;
+        
+        }
+        .header-nav-item{
+            
+        
+            margin: 20px 0px 5px 0px;
+    
+        
+        }
+        .header-nav-item a {
+            padding: 6px;}
+            .header-checked.label {
+        
+                display: none;
+            }
+             /* End Of Header */
+    }
+    @media(min-width:1665px) and (max-width: 2000px) {
+          /* Start Of Header */
+        .header-checked.label {
+        
+            display: none;
+        }
+         /* End Of Header */
+
+    }
+
+    /*Start Of  contact */
+    
+    @media(max-width:993px){
+    
+        .contact-input{
+            width: 100%;
+        
+        }
+        .inp-center{
+    
+            width: 100%;
+            }
+        .contact-txtarea{
+           
+    
+        display: block;
+        width: 100%;
+        }
+        .btn-contact{
+         
+            margin: 1% 0% 5% 40%;
+        
+        }
+    
+        }
+        
+       
+    
+        @media  (min-width:993px) and (max-width:2000px){
+            .contact-input{
+                width: 45%;
+                display: inline;
+            
+            }
+            .inp-center{
+        
+                width: 45%;
+                }
+            .contact-txtarea{
+               
+        
+            display: block;
+            width: 95%;
+            }
+         
+            
+        }
+        
+        /*End Of  contact */
